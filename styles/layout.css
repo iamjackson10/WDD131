@@ -1,0 +1,32 @@
+h1 {
+  height: 80px;
+  background: grey;
+  margin-bottom: 0;
+
+
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  height: 60px;
+  margin-top: 0;
+  align-items: center;
+
+}
+
+nav ul li {
+  list-style: none;
+  
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section.class {
+  background: grey;
+}

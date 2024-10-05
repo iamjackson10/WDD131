@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+h1 {
+  height: 80px;
+  background: rgb(31, 96, 200);
+  margin-bottom: 0;
+  color: white;
+  font-size: 25px;
+
+
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: black;
+  height: 60px;
+  margin-top: 0;
+  align-items: center;
+
+}
+
+nav ul li {
+  list-style: none;
+  
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section.class {
+  background: white;
+  
+  
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  
+  gap: 20px;
+}
+
+.card1 {
+  display: grid;
+  border: 1px solid;
+  grid-template-columns: 1fr;
+  
+}
+
+.about-me {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+.about-me img {
+  width: 200px;
+
+}
+
+.card2 {
+  border: 1px solid;
+  
+}
+
+h2 {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  margin-top: -10px;
+}
+
+.country {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.nigeria-flag {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  
+  
+
+}
+
+p {
+  padding-left: 20px;
+  
+  
+}
+
+img {
+  padding-left: 20px;
+
+}
+
+.country-name {
+  border-bottom: 1px solid;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: rgb(83, 83, 145);
+  height: 70px;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  text p;
+}
+
+.card2 ul {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+
+
+
